@@ -9,7 +9,7 @@ agents_dir = current_dir / 'agents'
 tools_dir = current_dir / 'tools'
 sys.path.append(str(agents_dir.resolve()))
 sys.path.append(str(tools_dir.resolve()))
-os.environ["OPENAI_API_KEY"] = "sk-_Sm2Yty66t_I5qeS3kYSC5KcAe1JvwqyOOL75ijRzJT3BlbkFJK9o9tQ6pmlsDI6u6s7cQJIUlSJHe5hpGsmugSrh0kA"
+os.environ["OPENAI_API_KEY"] = ""
 
 from risk_advisor import analyze_company_risk
 from efficiency_advisor import analyze_company_efficiency
