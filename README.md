@@ -1,13 +1,21 @@
-# Merge Genie 🎇
-## Merge Genie Agent 🎇
-## 2024/9/15 Web UI Update 🎇
-The Web UI is implemented using Gradio. If you need to update the UI or add new features, please modify the Gradio-related code in the `Merge_Genie.py` file. 🎇
+# Merge Genie 🧞‍♂️✨
+## Project Overview 💼✨
+
+Merge Genie is an intelligent agent designed to provide expert M&A (mergers and acquisitions) advice. By entering a specific stock code, the system utilizes a variety of powerful analytical tools and evaluation models to generate detailed M&A analysis reports. The data is fetched using the `yfinance` package, while six specialized evaluation agents cover key dimensions such as risk, efficiency, growth, management, valuation, and financial health, ensuring that users make well-informed M&A decisions. 💡📊
+
+### Key Features 🔍🌟
+
+- **Stock Code Analysis** 🔢: Users can input a stock code (e.g., 4901.T for Fujifilm), and the system will automatically gather and analyze relevant financial data.
+- **Multi-dimensional Evaluation** 🛠️📈: Six independent evaluation agents generate comprehensive reports on risk, efficiency, growth, management, valuation, and financial health.
+- **Report Generation** 📑🌐: The system automatically generates detailed reports in both English and Japanese, offering final, well-rounded insights for M&A decision-making.
+- **User-friendly Interface** 💻🖱️: A Web UI built using Gradio allows users to easily input stock codes and interact with the system for immediate results.
+
 
 #### 2024/9/15 Tool Formatting and Removal
 ![WEBUIインターフェース](./images/web_ui.png)
 Tool formatting has been removed for stability.
 
-This program is an agent that provides merge advice based on the specified stock code. The Data is gained by yfinance package.
+
 ## Japanese Report Links
 
 - [(Example) Fujifilm Final Report (Japanese)](./result/4901.T/Final/4901.T_final_report_japanese.md)
