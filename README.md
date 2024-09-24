@@ -1,13 +1,13 @@
-# M&A Advisor
-## M&A Advisor Agent
-## 2024/9/15 Web UI Update
-The Web UI is implemented using Gradio. If you need to update the UI or add new features, please modify the Gradio-related code in the `ma_advisor.py` file.
+# Merge Genie 🎇
+## Merge Genie Agent 🎇
+## 2024/9/15 Web UI Update 🎇
+The Web UI is implemented using Gradio. If you need to update the UI or add new features, please modify the Gradio-related code in the `Merge_Genie.py` file. 🎇
 
 #### 2024/9/15 Tool Formatting and Removal
 ![WEBUIインターフェース](./images/web_ui.png)
 Tool formatting has been removed for stability.
 
-This program is an agent that provides M&A advice based on the specified stock code.
+This program is an agent that provides merge advice based on the specified stock code. The Data is gained by yfinance package.
 ## Japanese Report Links
 
 - [(Example) Fujifilm Final Report (Japanese)](./result/4901.T/Final/4901.T_final_report_japanese.md)
@@ -19,9 +19,9 @@ This program is an agent that provides M&A advice based on the specified stock c
    pip install -r requirements.txt
    ```
 
-2. Run`ma_advisor.py` to start the Web UI::
+2. Run`Merge_Genie.py` to start the Web UI::
    ```
-   python ma_advisor.py
+   python Merge_Genie.py
    ```
 
 3. Access the URL displayed in your browser.
